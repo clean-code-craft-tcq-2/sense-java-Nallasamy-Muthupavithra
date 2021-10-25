@@ -4,6 +4,7 @@ import java.util.List;
 
 public class Statistics 
 {
+  //to store computed statistics
   static class Stats {
 
      Float min =Float.NaN;

@@ -23,10 +23,10 @@ public class StatsChecker {
     Statistics.Stats statistic = Statistics.getStatistics(numberList);
     if(Float.compare(statistic.max,this.maxThreshold)>0) {
       for(IAlerter alerter:alerters) {
+	//calls alert() method of classes that inherit IAlerter corresponding to the instance objects
         alerter.alert();
       }
-    }
-    
+    }   
   }
 
 }

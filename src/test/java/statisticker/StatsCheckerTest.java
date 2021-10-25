@@ -1,6 +1,3 @@
-/*
- * Copyright (c) Robert Bosch GmbH. All rights reserved.
- */
 package statisticker;
 
 import static org.junit.Assert.assertTrue;

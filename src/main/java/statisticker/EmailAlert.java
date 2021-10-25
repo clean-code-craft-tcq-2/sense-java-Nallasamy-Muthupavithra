@@ -3,7 +3,7 @@ package statisticker;
 public class EmailAlert implements IAlerter{
 
   /**
-   * true, if email is sent
+   * true-if email is sent, else false
    */
   public boolean emailSent;
   

@@ -46,10 +46,6 @@ public class StatisticsTest
        assertTrue(Float.isNaN(s.average));
        assertTrue(Float.isNaN(s.min));
        assertTrue(Float.isNaN(s.max));
-        //All fields of computedStats (average, max, min) must be
-        //Float.NaN (not-a-number), as described in
-        //https://www.geeksforgeeks.org/nan-not-number-java/
-        //Design the asserts here and implement accordingly.
     }
     
 }
